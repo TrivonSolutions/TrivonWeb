@@ -17,7 +17,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+  <BrowserRouter basename="/TrivonWeb">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/privatlivspolitik" element={<Privatlivspolitik />} />
